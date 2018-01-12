@@ -72,7 +72,7 @@
             <artifact name="commons-gwt-widgets" type="source" ext="jar" m:classifier="sources"/>
         </dependency>
 
-        <dependency org="pentaho" name="pentaho-xul-gwt" rev="${pentaho-xul.version}"
+        <dependency org="org.pentaho" name="pentaho-xul-gwt" rev="${pentaho-xul.version}"
                     conf="codegen->default"
                     changing="true">
             <artifact name="pentaho-xul-gwt"/>
